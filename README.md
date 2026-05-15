@@ -33,14 +33,14 @@ Python 3.9 / PyTorch 2.x / NerfStudio / COLMAP / CUDA 12.x
 
 ## 结果对比
 
-### nerfacto（高质量数据）
-![高质量数据+nerfacto 视角1](results/nerfacto_high_1.png)
-![高质量数据+nerfacto 视角2](results/nerfacto_high_2.png)
-
 ### nerfacto（低质量数据）
-![低质量数据+nerfacto 视角1](results/nerfacto_lower_1.png)
-![低质量数据+nerfacto 视角2](results/nerfacto_lower_2.png)
+![视角1](results/（低数据+nerfacto）的两个视角/results/nerfacto_lower_1.png)
+![视角2](results/（低数据+nerfacto）的两个视角/results/nerfacto_lower_2.png)
+
+### nerfacto（高质量数据）
+![视角1](results/（高数据+nerfacto）的两个视角/resultsnerfacto_high_1.png)
+![视角2](results/（高数据+nerfacto）的两个视角/resultsnerfacto_high_2.png)
 
 ### TensoRF（高质量数据）
-![高质量数据+TensoRF 视角1](results/tensorf_high_1.png)
-![高质量数据+TensoRF 视角2](results/tensorf_high_2.png)
+![视角1](results/（高数据+tensorf）的两个视角/results/tensorf_high_1.png)
+![视角2](results/（高数据+tensorf）的两个视角/results/tensorf_high_2.png)
