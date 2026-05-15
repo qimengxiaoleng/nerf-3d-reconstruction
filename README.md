@@ -7,7 +7,7 @@
 ## 实验设置
 - 数据：两组农夫山泉矿泉水瓶照片（各65张）
 - 模型：nerfacto / TensoRF
-- 硬件：RTX 4070 8GB
+- 硬件：RTX 4060 8GB
 - 框架：NerfStudio + COLMAP + PyTorch
 
 ## 结果对比
