@@ -7,7 +7,7 @@
 ## 实验设置
 - 数据：两组农夫山泉矿泉水瓶照片（各65张）
 - 模型：nerfacto / TensoRF
-- 硬件：RTX 4060 8GB
+- 硬件：RTX 4070 8GB
 - 框架：NerfStudio + COLMAP + PyTorch
 
 ## 结果对比
@@ -30,3 +30,17 @@
 
 ## 环境
 Python 3.9 / PyTorch 2.x / NerfStudio / COLMAP / CUDA 12.x
+
+## 结果对比
+
+### nerfacto（高质量数据）
+![高质量数据+nerfacto 视角1](results/nerfacto_high_1.png)
+![高质量数据+nerfacto 视角2](results/nerfacto_high_2.png)
+
+### nerfacto（低质量数据）
+![低质量数据+nerfacto 视角1](results/nerfacto_lower_1.png)
+![低质量数据+nerfacto 视角2](results/nerfacto_lower_2.png)
+
+### TensoRF（高质量数据）
+![高质量数据+TensoRF 视角1](results/tensorf_high_1.png)
+![高质量数据+TensoRF 视角2](results/tensorf_high_2.png)
